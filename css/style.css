@@ -1,0 +1,401 @@
+@charset="utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    }
+html {height: 100%;}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(224,215,169);
+    color: #333;
+     font-family: "Times New ROman", "Arial", sans-serif;
+    font-size: 1em;
+    line-height: 135%;
+        float: left;
+    margin-left: -20px;   
+}
+img {
+    max-width: 100%;
+    height:100%;
+    width: auto\9;
+}   
+hr {
+    border: none;
+    height: 2px;
+    color: ;
+    background-color: saddlebrown;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/*Здесь все шрифты*/
+h1 {
+    text-align: center;
+   font-family: "Euphemia", "Arial", sans-serif;
+     font-size: 1.8em;
+    margin-top: 5px;
+    letter-spacing		: -1px;
+    margin-bottom: -13px;
+    color: rgb(56, 88, 87);
+}
+h2 {text-align: center;
+    font-family: "Euphemia", "Arial", sans-serif;
+    font-size: 1.5em;
+    margin-top: 6px;
+    letter-spacing		: -1px;
+    margin-bottom: ;
+    color: saddlebrown;
+}
+h3 {
+   text-align: center;
+    font-family: "Euphemia", "Arial", sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    color: black; 
+    font-weight: 100;
+}
+p1 {
+    text-align: right;
+    font-family: "Times New Roman", "Arial", sans-serif;
+    font-size: 1.3em;
+    margin-top: 10px; 
+    letter-spacing: -0.5px;
+    color: #1d1d1d;
+    margin-right: 10px;
+}
+p3 {text-align: left;
+    font-family: "Euphemia", "Arial", sans-serif;
+    font-size: 1.5em;
+    margin-top: 5px;
+    letter-spacing: -1px;
+    margin-bottom: ;
+    color: saddlebrown;
+}
+p4 {text-align: left;
+   font-family: "Euphemia", "Arial", sans-serif;
+     font-size: 2em;
+    margin-top: 5px;
+    letter-spacing		: -1px;
+    margin-bottom: 3px;
+    color: rgb(82, 119, 118);
+    font-weight: bold;
+}
+p {
+    text-align: left;
+     font-family: "Times New Roman", "Arial", sans-serif;
+     letter-spacing		: -0.5px;
+    font-size: 1.1em;
+    margin-top: 5px; 
+    color: #1d1d1d;
+    margin-right: 10px;
+}
+A {
+    color: rgb(96, 152, 151); 
+    text-decoration: none;
+}
+a:hover {
+    color: #2b5d69;
+}
+a, a:hover {
+    -webkit-transition: all.6sec ease;
+    -moz-transition: all.6sec ease;
+    -o-transition: all.6sec ease;
+    -ms-transition: all.6sec ease;
+    transition: all.6sec ease;
+}
+a #link {
+    width:auto;
+height:auto;
+background:#000000;
+}
+.clear {
+    clear: both;    
+}
+/* Стили для шапки*/
+header {
+    width: 1093px;
+    float: left;
+    padding: 1%;
+    background-color: rgb(82, 119, 118);
+    border-bottom: 2px #d84343;
+    font-family: "Segor UI", "Arial", sans-serif;
+    margin-top: 0px;
+    margin-left: 137px;
+}
+header #PicLog1 {
+    width: 22px ;
+    height: 1%;
+    float: left;
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 100px;
+}
+header #logo {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+header #MenuHead {
+    width: 23%;
+    float: left;
+    text-align: center;  
+}
+header #Manifesto {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+/*Стили для всего документа*/
+#wrapper {
+    width: 1118px;
+    height: auto;   
+    float: left;
+    background-color: white;
+    margin-left: 137px;
+    margin-bottom: 0px;
+}
+#wrapper #tophr {
+    border: none;
+    width: 100%;
+    height: 2px;
+    background-color: saddlebrown;
+    margin-bottom: 0px;
+}
+#wrapper #bottomhr {
+    border: none;
+    width: 100%;
+    height: 2px;
+    background-color: saddlebrown;
+    margin-top: 10px;
+    float: left;
+}
+#wrapper #text {
+    width: auto;
+    height: 170px;
+    float: left;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right:20px;
+    text-align: left; 
+}
+
+#wrapper #bottomcol {
+    width: auto;
+    height: 170px;
+    float: left;
+    background-color: ;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+#wrapper #bottomcol #first {
+    width: 245px;
+    height: 170px;
+    float: left;
+    background-color: ;
+    margin-right: 10px;
+    margin-left: 10px
+}
+#wrapper #bottomcol #second {
+    width: 510px;
+    height: 170px;
+    float: left;
+    background-color: ;
+    margin-right: 10px;
+    margin-left: 10px
+}
+#wrapper #bottomcol #third {
+    width: 333.5px;
+    height: 170px;
+    float: left;
+    background-color: ;
+    margin-right: 10px;
+    margin-left: 10px
+}
+#wrapper #page-left {
+    width: 300px;
+    height: auto;
+    background-color: ;
+    text-align: center;
+    margin-bottom: 0px;
+}
+/*Материалы*/
+#wrapper #material {
+	width: 1119px;
+    height: auto;
+    background-color: ;
+    text-align: center;
+    margin-left: 0px;
+	margin-bottom: 20px;
+    margin-top: 30px;
+	float: left;
+}
+#wrapper #material #hiad {
+     width: 1073px;
+    height: 55px;
+    float: left;
+    background-color: ;
+    margin-top: 250px;
+    margin-left: 0px;
+    text-align: left;
+    color			: white;
+	letter-spacing		: 0px;
+	background		: rgb(0, 0, 0); 
+	background		: rgba(0, 0, 0, 0.7);
+	padding			: 10px 5px 5px 40px;
+}
+#wrapper #material #phohead {
+ width: 1118px;
+    height: 320px;
+    float: left;
+    background-image: url("http://cs619230.vk.me/v619230346/396c/OrUwc0AkbSk.jpg");
+    margin-top: -30px;
+    background-position: center;
+    margin-left: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+#wrapper #material #mone {
+	width: 1035px;
+    height: auto;
+    background-color: ;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-right: 20px;
+    margin-left: 40px;
+	float: left;
+    margin-top: -10px;
+}
+#wrapper #material #quote {
+    width: 1035px;
+    height: auto;
+    float: left;
+    background-color: ;
+    color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    text-align: left; 
+    font-size: 1.5em;
+    line-height: ;
+    text-align: center;
+    font-family: "Euphemia", "Arial", sans-serif;
+}
+#wrapper #material #quotehr {
+    border: none;
+    width: 100%;
+    height: 2px;
+    background-color: saddlebrown;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#wrapper #material #quotehru {
+    border: none;
+    width: 100%;
+    height: 2px;
+    background-color: saddlebrown;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    float: left;
+}
+/*читайте также*/
+#also {
+    width: 1118px;
+    height: auto;
+    float: left;
+    background-color: ;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#also #title {
+    width: 1045px;
+    height: 35px;
+    line-height: 120%;
+    float: left;
+    background-color: ;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    text-align: left;
+}
+#also #in{
+    width: 1055px;
+    height: auto;
+    float: left;
+    background-color: ;
+    margin-left: 30px;
+    margin-top:20px;
+    margin-bottom: 25px;
+}
+#also #in #block{
+   width: 498px;
+    height: 270px;
+    float: left;
+    background-color: ;
+    margin-right: 0px;
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left; 
+    background-image: url("http://cs619230.vk.me/v619230346/396c/OrUwc0AkbSk.jpg");
+    background-position: 90% 85%;
+    text-align: left;    
+}
+
+#also #in #block #text {
+     width: 492px;
+    height: 60px;
+    float: left;
+    text-align: left;
+    color			: saddlebrown;
+	letter-spacing		: 0px;
+	background		: rgb(0, 0, 0); 
+	background		: rgba(0, 0, 0, 0.7);
+	padding			: 10px 2px 40px 4px;
+    margin-top: 127px;
+    margin-left: 0px;
+    font-size: 20px;
+    font-family: "Euphemia", "Arial", sans-serif;
+}
+
+#also #in #space {
+     width: 50px;
+    height: 270px;
+    float: left;
+    margin-top: 5px;
+    background-color: ;
+}
+
+/*футер*/
+footer {
+    width: 1093px;
+    float: left;
+    padding: 1%;
+    background-color: rgb(82, 119, 118);
+    border-bottom: 2px #d84343;
+    font-family: "Segor UI", "Arial", sans-serif;
+    margin-top: 00px;
+    margin-left: 137px;
+}
+footer #social {
+    float: left;
+    width: 10%;
+}
+footer #social img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+}
+footer #rights {
+    float: right;
+    width: 20%;
+    text-align: right;
+    font-size: 0.8em
+}
