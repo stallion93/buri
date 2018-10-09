@@ -6,7 +6,7 @@
     }
 html {height: 100%;}
 body {
-    width: 90%;
+    width: 100%;
     height: 100%;
     background-color: rgb(224,215,169);
     color: #333;
@@ -374,7 +374,7 @@ header #Manifesto {
 
 /*футер*/
 footer {
-    width: auto;
+    width: 1093;
     float: left;
     padding: 1%;
     background-color: rgb(82, 119, 118);
