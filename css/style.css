@@ -261,6 +261,7 @@ header #Manifesto {
 #wrapper #material #mone {
 	width: 1035px;
     height: auto;
+	 float: left;
     background-color: ;
     text-align: center;
     margin-bottom: -30px;
