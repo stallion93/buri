@@ -8,6 +8,7 @@ html {height: 100%;}
 body {
     width: 100%;
     height: 100%;
+	max-width: 1000px;
     background-color: rgb(224,215,169);
     color: #333;
      font-family: "Times New ROman", "Arial", sans-serif;
