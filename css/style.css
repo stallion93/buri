@@ -119,12 +119,13 @@ background:#000000;
 header {
     width: 1098px;
 	  height: 30px;
-    float: center;
+    float: left;
     padding: 1%;
     background-color: rgb(82, 119, 118);
     border-bottom: 2px #d84343;
     font-family: "Segor UI", "Arial", sans-serif;
     margin-top: 0px;
+	margin-left: 25%;
 }
 header #PicLog1 {
     width: 22px ;
@@ -153,9 +154,10 @@ header #Manifesto {
 #wrapper {
     width: 1118px;
     height: 2000;   
-    float: center;
+    float: left;
     background-color: white;
     margin-bottom: 0px;
+	margin-left: 25%;
 }
 #wrapper #tophr {
     border: none;
