@@ -374,14 +374,14 @@ header #Manifesto {
 
 /*футер*/
 footer {
-    width: 1093;
+    width: 1093px;
     float: left;
     padding: 1%;
     background-color: rgb(82, 119, 118);
     border-bottom: 2px #d84343;
     font-family: "Segor UI", "Arial", sans-serif;
-    margin-top: 00px;
-    margin-left: 137px;
+    margin-top: 0px;
+    margin-left: 132px;
 }
 footer #social {
     float: left;
