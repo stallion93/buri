@@ -118,7 +118,8 @@ background:#000000;
 /* Стили для шапки*/
 header {
     width: 1093px;
-    float: center;
+	  height: 200px;
+    float: left;
     padding: 1%;
     background-color: rgb(82, 119, 118);
     border-bottom: 2px #d84343;
@@ -151,8 +152,8 @@ header #Manifesto {
 /*Стили для всего документа*/
 #wrapper {
     width: 1118px;
-    height: auto;   
-    float: center;
+    height: 2000;   
+    float: left;
     background-color: white;
     margin-bottom: 0px;
 }
