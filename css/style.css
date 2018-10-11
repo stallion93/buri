@@ -125,7 +125,7 @@ header {
     border-bottom: 2px #d84343;
     font-family: "Segor UI", "Arial", sans-serif;
     margin-top: 0px;
-	margin-left: 40%;
+	margin-left: 0%;
 }
 header #PicLog1 {
     width: 22px ;
@@ -157,7 +157,7 @@ header #Manifesto {
     float: left;
     background-color: white;
     margin-bottom: 0px;
-	margin-left: 40%;
+	margin-left: 0%;
 }
 #wrapper #tophr {
     border: none;
